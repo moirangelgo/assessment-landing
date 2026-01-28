@@ -40,7 +40,9 @@ body {
     min-height: 80vh;
     display: flex;
     align-items: center;
-
+    background-image: url(Assets/hero-image.png);
+    background-repeat: no-repeat;
+    background-position: right;
     color: #094B72;
 }
 
