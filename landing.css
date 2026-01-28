@@ -40,8 +40,8 @@ body {
     min-height: 80vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
+
+    color: #094B72;
 }
 
 .jumbotron {
@@ -65,10 +65,12 @@ body {
     padding: 0.8rem 2.5rem;
     font-size: 1.1rem;
     font-weight: 600;
-    border-radius: 50px;
+    border-radius: 9px;
     text-transform: uppercase;
     letter-spacing: 1px;
     transition: all 0.3s;
+    background: #094B72;
+    color: white;
 }
 
 .btn-cta:hover {
