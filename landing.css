@@ -134,7 +134,7 @@ body {
 
 /* Footer */
 .footer {
-    background-color: #2c3e50;
+    background-color: #094B72;
     color: white;
     padding: 3rem 0 1.5rem;
 }
@@ -238,7 +238,25 @@ body {
 }
 
 @media (max-width: 768px) {
-    body {
-        /* display: none !important;*/
+    .hero-section {
+        min-height: 80vh;
+        display: flex;
+        align-items: center;
+        background-image: none;
+        background-repeat: no-repeat;
+        background-position: right;
+        color: #094B72;
     }
+}
+
+.stats-section {
+    background-image: url(Assets/BG.svg);
+    color: white;
+    padding: 4em;
+}
+
+.stats-main-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3em;
+    font-weight: bolder;
 }
