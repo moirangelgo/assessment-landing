@@ -181,3 +181,16 @@ body {
 .social-icons a:hover {
     color: white;
 }
+
+
+.trusted-text {
+    color: grey;
+}
+
+.Airbnb {
+    margin-right: 30px;
+}
+
+.tall {
+    min-height: 100vh
+}
